@@ -144,3 +144,53 @@ Metodos
 **Sangre():** Constructor de la clase Sangre.
 
 
+
+Servidor
+------------------
+Inteface MensajeObserver
+-----------------
+Atributos
+---------------
+**OnDataReceiver(Object):void** Aplica el patron observer.
+
+
+ServerSingleton
+--------------------
+Atributos
+----------------------
+**ServerSocket serverSocket** Espera la  solicitud.
+
+Metodos
+--------------------
+**ServerSingleton():** Constructor de clase ServerSingleton.
+**getConstructor(): ServerSingleton** Se inicializa a si mismo si detecta que es un nulo 
+**run(): void** Metodo para la recepcion y envio.
+**setObserver(): void** Metodo para gestionar el patron observer
+
+
+
+TCPConection
+----------------------
+Atributos
+-------------------------
+**Socket socket:** Variable para comunicar.
+
+
+Metodos
+---------------------
+**TCPConection()** 
+**getConstructor() Comunicacion** 
+**run(): void**
+**serObservador(MensajeObservador): void**
+
+Receptor
+----------------------
+Atributos
+--------------------
+**Socket socket;**
+
+Metodos
+---------------------
+**Receptor();**
+**run(): void**
+
