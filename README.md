@@ -4,8 +4,7 @@ Main
 --------------------------------------------------
 Atributos 
 -------------------------
--jugador1: Variable para el jugador uno.
--jugador2: Variable para el jugador dos.
-
+**jugador1:**
+Variable para el jugador numero uno.
 Metodos
 -------------------
