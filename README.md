@@ -165,7 +165,7 @@ Metodos
 **ServerSingleton():** Constructor de clase ServerSingleton.
 **getConstructor(): ServerSingleton** Se inicializa a si mismo si detecta que es un nulo 
 **run(): void** Metodo para la recepcion y envio.
-**setObserver(): void** Metodo para gestionar el patron observer
+**setObserver(MensajeObservador): void** Metodo para gestionar el patron observer
 
 
 
@@ -175,13 +175,14 @@ Atributos
 -------------------------
 **Socket socket:** Variable para comunicar.
 
-
 Metodos
 ---------------------
 **TCPConection()** 
-**getConstructor() Comunicacion** 
+**getConstructor() Comunication** 
 **run(): void**
 **serObservador(MensajeObservador): void**
+
+
 
 Receptor
 ----------------------
@@ -193,4 +194,5 @@ Metodos
 ---------------------
 **Receptor();**
 **run(): void**
+**recibir():void**
 
